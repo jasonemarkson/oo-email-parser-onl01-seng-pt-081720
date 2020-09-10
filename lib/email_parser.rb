@@ -8,6 +8,8 @@ class EmailAddressParser
   def initialize
     csv_array = []
     @email = email
+    csv_array << email
+    csv_array.split(',')
     
   end
   

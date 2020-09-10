@@ -6,12 +6,6 @@ require 'pry'
 
 class EmailAddressParser
   def parse
-    csv_array = []
-    binding.pry
-    @email = email
-   
-    csv_array << email
-    csv_array.split(',')
     
   end
   

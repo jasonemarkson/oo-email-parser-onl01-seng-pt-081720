@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  def initialize(email)
-    @email = email
-  end
+  attr_accessor :email_addresses
+  
+  
 end

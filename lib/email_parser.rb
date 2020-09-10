@@ -6,8 +6,8 @@ require 'pry'
 
 class EmailAddressParser
   def parse
-    @email_address = email_address.split(',')
-    binding.pry
+    @email_address = email_address
+    email_address.split(',')
   end
   
 end

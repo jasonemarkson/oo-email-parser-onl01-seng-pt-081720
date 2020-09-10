@@ -5,7 +5,7 @@ require 'pry'
 # or whitespace (' ').
 
 class EmailAddressParser
-  def parse
+  def initialize
     
   end
   

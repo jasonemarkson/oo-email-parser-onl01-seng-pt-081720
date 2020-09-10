@@ -6,7 +6,7 @@ require 'pry'
 
 class EmailAddressParser
   attr_accessor :parse
-  def initialize(email)
+  def initialize(parse)
     @parse = parse
   end
   

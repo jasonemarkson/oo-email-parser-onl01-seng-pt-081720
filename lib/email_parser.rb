@@ -6,6 +6,8 @@ require 'pry'
 
 class EmailAddressParser
   def initialize
+    csv_array = []
+    @email = email
     
   end
   

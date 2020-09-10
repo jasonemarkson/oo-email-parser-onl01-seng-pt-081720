@@ -10,7 +10,7 @@ class EmailAddressParser
     @email = email
     csv_array << email
     csv_array.split(',')
-    
+    binding.pry
   end
   
 end

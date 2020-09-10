@@ -7,6 +7,7 @@ require 'pry'
 class EmailAddressParser
   email_address = self.new
   binding.pry
+  
   def parse(email_address)
     @email_address = email_address
     email_address.split(',')

@@ -7,7 +7,6 @@ require 'pry'
 class EmailAddressParser
   def initialize
     @parser = parser
-    binding.pry
     
   end
   

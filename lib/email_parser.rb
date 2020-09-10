@@ -5,6 +5,8 @@ require 'pry'
 # or whitespace (' ').
 
 class EmailAddressParser
+  email_address = self.new
+  
   def parse(email_address)
     @email_address = email_address
     email_address.split(',')

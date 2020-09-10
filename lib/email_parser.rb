@@ -8,9 +8,10 @@ class EmailAddressParser
   def parse
     csv_array = []
     @email = email
+    binding.pry
     csv_array << email
     csv_array.split(',')
-    binding.pry
+    
   end
   
 end

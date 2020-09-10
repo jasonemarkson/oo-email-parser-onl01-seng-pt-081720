@@ -7,7 +7,7 @@ require 'pry'
 class EmailAddressParser
   def parse
     @email_address = email_address
-    
+    binding.pry
   end
   
 end

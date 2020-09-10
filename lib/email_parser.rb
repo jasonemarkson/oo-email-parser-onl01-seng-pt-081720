@@ -6,5 +6,5 @@
 class EmailAddressParser
   def parse
     @email_address = email_address
-  
+  end
 end

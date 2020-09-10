@@ -5,7 +5,7 @@ require 'pry'
 # or whitespace (' ').
 
 class EmailAddressParser
-  def initialize
+  def parse
     csv_array = []
     @email = email
     csv_array << email

@@ -5,6 +5,7 @@ require 'pry'
 # or whitespace (' ').
 
 class EmailAddressParser
+  attr_accessor :email_address
   
   def initialize
     @email_address = email_address
